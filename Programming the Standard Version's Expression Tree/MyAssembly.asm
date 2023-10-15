@@ -16,14 +16,14 @@ doit proc
 	; standard, 55 is the result for standard calc
 	mov eax, 3			; 3 * 4
 	mov ebx, 4			
-	mul ebx				; eax = 12
+	mul ebx				; eax = 12		0000000C
 	move ebx, 6
-	add eax, ebx		; 12 + 6 = 18
+	add eax, ebx		; 12 + 6 = 18	00000012
 	mov ebx, 2			; 18 / 2 
-	div ebx				; eax = 9
-	add eax, ebx		; 9 + 2 = 11
+	div ebx				; eax = 9		
+	add eax, ebx		; 9 + 2 = 11	0000000B
 	mov ebx, 5			; 11 * 5 
-	mul ebx				; eax = 55
+	mul ebx				; eax = 55		00000037
 
 	
 	; scientific, 25 is the result for scientific calc
