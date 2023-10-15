@@ -19,8 +19,11 @@ doit proc
 	mul ebx				; eax = 12
 	move ebx, 6
 	add eax, ebx		; 12 + 6 = 18
-	mov ebx, 2			; 18 / 2 = 9
-
+	mov ebx, 2			; 18 / 2 
+	div ebx				; eax = 9
+	add eax, ebx		; 9 + 2 = 11
+	mov ebx, 5			; 11 * 5 
+	mul ebx				; eax = 55
 
 	
 	; scientific, 25 is the result for scientific calc
