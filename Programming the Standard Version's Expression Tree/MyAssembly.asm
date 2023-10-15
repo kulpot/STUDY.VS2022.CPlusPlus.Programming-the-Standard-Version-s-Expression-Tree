@@ -14,6 +14,12 @@ doit proc
 	; 3 * 4 + 6 / 2 + 2 * 5 
 
 	; standard, 55 is the result for standard calc
+	mov eax, 3			; 3 * 4
+	mov ebx, 4			
+	mul ebx				; eax = 12
+	move ebx, 6
+	add eax, ebx		; 12 + 6 = 18
+	mov ebx, 2			; 18 / 2 = 9
 
 
 	
