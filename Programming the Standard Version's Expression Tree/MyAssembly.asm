@@ -10,6 +10,16 @@ doit proc
 
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	
+	; ----- Programming the Standard Version's Expression Tree -----
+
+
+
+
+
+
+
+	ret
+
 	; ---- Two Expression Trees For the Same Equation -----
 	; 3 * 4 + 6 / 2 + 2 * 5
 	; 55 is the result for standard calc
